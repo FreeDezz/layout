@@ -192,9 +192,11 @@ main .container {
   -webkit-box-shadow: 6px 7px 8px -3px rgba(0, 0, 0, 0.13);
   -moz-box-shadow: 6px 7px 8px -3px rgba(0, 0, 0, 0.13);
   box-shadow: 6px 7px 8px -3px rgba(0, 0, 0, 0.13);
+  transition: all 0.5s ease-out;
 }
 .services_item li:hover {
   background-color: #f2f2f2;
+  transition: all 0.5s ease-out;
 }
 
 .Development_item {
@@ -234,11 +236,13 @@ main .container {
   box-shadow: 2px 1px 8px 3px rgba(0, 0, 0, 0.13);
   margin-right: 7px;
   font-weight: 400;
+  transition: all 0.5s ease-out;
 }
 
 .btn_item:hover {
   background-color: #1abc9c;
   color: white;
+  transition: all 0.5s ease-out;
 }
 
 .features_item {
@@ -293,9 +297,11 @@ main .container {
   color: white;
   border-radius: 0;
   font-size: 18px;
+  transition: all 0.5s ease-out;
 }
 .work .btn_block .btn_item:hover {
   background-color: #111;
+  transition: all 0.5s ease-out;
 }
 
 .collection {
@@ -363,6 +369,7 @@ main .container {
   /** Opera **/
   -moz-transform: translate(0, -70px);
   /** Firefox **/
+  transition: all 0.5s ease-out;
 }
 
 .collection_item:hover .after_item {
@@ -390,6 +397,7 @@ main .container {
   max-height: 650px;
   display: flex;
   flex-direction: column;
+  transition: all 0.5s ease-out;
 }
 .team .team_item .team_img {
   width: 70%;
@@ -417,6 +425,7 @@ main .container {
   -webkit-box-shadow: 2px 1px 8px 8px rgba(0, 0, 0, 0.13);
   -moz-box-shadow: 2px 1px 8px 8px rgba(0, 0, 0, 0.13);
   box-shadow: 2px 1px 8px 8px rgba(0, 0, 0, 0.13);
+  transition: all 0.5s ease-out;
 }
 
 .social {
@@ -669,6 +678,7 @@ main .container {
   -webkit-box-shadow: 1px 4px 13px 7px rgba(34, 60, 80, 0.06);
   -moz-box-shadow: 1px 4px 13px 7px rgba(34, 60, 80, 0.06);
   box-shadow: 1px 4px 13px 7px rgba(34, 60, 80, 0.06);
+  transition: all 0.5s ease-out;
 }
 .product_packages .product .product_item h1 {
   font-size: 20px;
@@ -718,6 +728,7 @@ main .container {
 .product_packages .product .product_item:hover {
   background-color: #1abc9c;
   color: white;
+  transition: all 0.5s ease-out;
 }
 .product_packages .product .product_item:hover .price {
   background-color: #1abc9c;
@@ -1016,6 +1027,7 @@ main .container {
     box-sizing: border-box;
     width: 100%;
     margin: auto;
+    max-height: none;
   }
 
   .services_web {
@@ -1161,6 +1173,7 @@ main .container {
   .our .content_slider .text_slider {
     box-sizing: border-box;
     width: 100%;
+    max-height: none;
   }
 
   .services_web {
